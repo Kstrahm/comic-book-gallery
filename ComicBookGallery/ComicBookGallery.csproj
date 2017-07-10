@@ -101,7 +101,7 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Controllers\ComicBooks.controller" />
+    <Compile Include="Controllers\ComicBooks.controller.cs" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
